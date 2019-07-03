@@ -1,0 +1,363 @@
+html { scroll-behavior: smooth;
+    scroll-margin-top: 100px;
+    
+}
+/* body */
+body {
+    background-color:lightgray;
+    
+}
+
+/* Navbar */
+.navbar {
+    background-color: #f46666;
+}
+.navbar-brand {
+    font-family: 'Shrikhand';
+    font-size: 20px;
+
+}
+
+
+
+/* Jumbotron */
+.jumbotron {
+    background-image: url(img/jumbotron-deks.png);
+    background-size: cover;
+    height: 750px ;
+    
+}
+.jumbotron .display-4 {
+    font-size: 40px;
+    color: beige;
+    margin-top: 140px;
+    font-weight: bold;
+    
+}
+ .lead {
+     font-size: 20px;
+     color: bisque;
+ }
+
+ .lead span {
+     font-family: Shrikhand;
+     font-weight: 100;
+ }
+
+ .tombol {
+     font-size: 20px;
+     color: rgb(223, 109, 109);
+     border-radius: 20px;
+     margin: 40px;
+     text-align: center;
+     font-weight: bold;
+
+ }
+
+
+
+
+ /* content */
+ #menu {
+     padding-top: 10px;
+ }
+
+ .menu h5 {
+     text-align: center;
+ }
+ .menu2 h5 {
+    text-align: center;
+}
+
+.caption {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    background-image: url(img/menu_background.jpg);
+    background-size: cover;
+    height: 700;
+    
+}
+
+/* pricing */
+.pricing {
+    margin-top: 100px;
+    padding: 50px;
+   
+}
+
+.caption2 {
+    text-align: center;
+}
+.tombol2 {
+    font-size: 20px;
+    color: beige;
+    
+    text-align: center;
+    
+
+}
+.caption2 .btn {
+    margin-top: 50px;
+    border-radius: 50px;
+}
+/* testimonial */
+
+.testimonial {
+    margin-top: -30px;
+    padding-top: 300px;
+    background-image: url(img/bg-testi.jpg);
+    background-size: cover;
+    height: 1000px;
+    }
+.testimonial h5{
+    text-align: center;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 24px;
+}
+.testimonial figure img {
+    width: 60px;
+    margin: 20px 10px 10px;
+    opacity: 0.6;
+}
+
+.testimonial figure img.utama{
+    width: 90px;
+    opacity: 1;
+    margin-top: 5px;
+    
+}
+
+.testimonial figure h5 {
+    font-size: 16px ;
+    font-weight: bold;
+    font-style: normal;
+    color: #1c2c5d ;
+
+}
+
+.testimonial figure p {
+    font-size: 12px;
+    color: gray;
+    text-align: center;
+    margin-top: -10px;
+}
+.testimonial h3 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+/* Footer */
+.keterangan {
+    
+    text-align: center;
+    background-color: white;
+}
+.keterangan .btn {
+    border-radius: 20px;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 10px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 30px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-instagram {
+    background: rgb(116, 172, 190);
+    color: #125688;
+  }
+  .footer {
+      padding-top: 250px;
+      padding-bottom: 70px;
+      background-image: url(img/footer-bg.png);
+      background-size: cover;
+      height: 300px;
+      
+  }
+  .footer h5 {
+      font-family: shrikhand ;
+      font-weight: 500;
+      
+  }
+/* dekstop version */
+
+@media (min-width: 992px)  { 
+
+ .navbar-brand,.nav-link {
+      color:beige !important;
+      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  }
+
+  .nav-link {
+    text-transform: uppercase;
+    margin-right: 30px;
+    
+}
+
+  .nav-link:hover::after {
+      content: '';
+      display: block;
+     border-bottom: 3px solid beige;
+     width: 20px;
+     margin: auto;
+     padding-bottom: 6px;
+     margin-top: -8px;
+  }
+
+  .jumbotron {
+
+    
+   }
+
+
+   /* content */
+   .menu {
+       margin-top: 70px;
+       padding: 30px;
+   }
+
+   .menu2 {
+       margin-top: 50px;
+   }
+
+ .caption2 {
+     margin-top: 35px;
+ }
+ .keterangan {
+    margin-top: 200px;
+    padding-top: 20px;
+    text-align: center;
+    background-color: white;
+}
+ .infopanel {
+     background-color: white;
+     margin-top: -450px;
+ }
+ .infotext {
+     background-color: white;
+     text-align: right;
+     padding: 50px;
+     margin-top:-580px; 
+     color: beige;
+ }
+ #section3 {
+     padding-top: 10px;
+ }
+ #section4 {
+     padding-top: 5px;
+     padding-bottom: 5px;
+     
+ }
+}
+
+/* mobile version */
+@media (max-width: 767.98px) {
+
+    
+
+    .jumbotron {
+        background-image: url(img/jumbotron-mb.jpg);
+        background-size: cover;
+        height: 600px ;
+        width: 470px;
+        text-align: center;
+        
+        
+    }
+    .jumbotron .display-4 {
+        font-size: 25px;
+        color: beige;
+        
+        margin-top: 70px;
+        font-weight: bold;
+        
+    }
+     .lead {
+         font-size: 15px;
+         color: bisque;
+         text-align: center;
+     }
+    
+     .lead span {
+         font-family: Shrikhand;
+         font-weight: 50;
+     }
+
+     .tombol {
+        font-size: 20px;
+        color: brown;
+        border-radius: 20px;
+        box-align: center;
+        
+   
+    }
+    .caption {
+        text-align: center;
+    }
+    .caption2 {
+       
+        margin-left: 40px;
+    }
+    .pricing img{
+        margin-left: -45px;
+    
+    }
+    .infopanel {
+        width: 0px;
+        height: 0px;
+        
+        
+    }
+    .infotext {
+        text-align: center;
+        color: white;
+        background-image: url(img/info2.jpg);
+        background-size: cover;
+        height: 700px;
+        width: 500px;
+        padding-top: 300px;
+        margin-top: -300px;
+    }
+    .keterangan {
+    padding-top: 50px;
+    margin-left: 0px;
+    margin-right: -70px;
+    text-align: center;
+    background-color: white;
+    
+    widows: 500px;
+}
+.footer {
+    text-align: center;
+    padding-bottom: 100px;
+    width: 485px;
+}
+    .menu  {
+        padding-left: 60px;
+    }
+    .menu2  {
+        padding-left: 60px;
+    }
+.testimonial {
+    width: 500px;
+}
+
+
+}
