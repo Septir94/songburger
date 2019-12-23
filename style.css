@@ -5,12 +5,13 @@ html { scroll-behavior: smooth;
 /* body */
 body {
     background-color:lightgray;
-    
+    width:100vw;
+    overflow-x: hidden;
 }
 
 /* Navbar */
 .navbar {
-    background-color: #f46666;
+    background-color:#FF6766;
 }
 .navbar-brand {
     font-family: 'Shrikhand';
@@ -22,9 +23,9 @@ body {
 
 /* Jumbotron */
 .jumbotron {
-    background-image: url(img/jumbotron-deks.png);
-    background-size: cover;
-    height: 750px ;
+     background-image: url(img/jumbotron-deks.png); 
+     background-size: cover; 
+     height: 750px ; 
     
 }
 .jumbotron .display-4 {
@@ -32,11 +33,13 @@ body {
     color: beige;
     margin-top: 140px;
     font-weight: bold;
+    text-shadow: 1px 1px 2px  black;
     
 }
  .lead {
      font-size: 20px;
      color: bisque;
+     font-weight: lighter;
  }
 
  .lead span {
